@@ -602,6 +602,7 @@ section,
     left: -15%;
   }
 
+  
   .about .pulsating-play-btn {
     position: absolute;
     left: calc(50% - 47px);
