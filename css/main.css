@@ -712,3 +712,30 @@ section,
   line-height: 0;
   transition: 0.3s;
 }
+
+
+/*  Scroll-tob = BOtão subir */
+.scroll-top {
+position:fixed;
+background-color: #428bca;
+width: 40px;
+height: 40px;
+border-radius: 4px;
+z-index: 99999;
+right: 15px;
+bottom:15px;
+visibility: hidden;
+opacity: 0;
+transition: all .5s ease-in-out;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 1;
+}
+
+.scroll-top.active{
+  visibility: visible;
+  opacity: 1;
+}
