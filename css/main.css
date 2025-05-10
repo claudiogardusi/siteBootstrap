@@ -365,6 +365,48 @@ section,
   padding: 60px 0;
 }
 
+@media (max-width: 1199px) {
+  section,
+  .section {
+    scroll-margin-top: 66px;
+  }
+}
+
+
+/* Global Title */
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #c8c5c575;
+  color: #428bca;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-family: var(--font-padrao);
+
+}
+
+.section-title div {
+  color: #060606;
+  margin: 10px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--font-titulo);
+}
+
+.section-title div .description-title {
+  color: #428bca;
+}
+
 .dark-background {
   --background-color: #060606;
   --default-color: #f1f0f0;
@@ -684,7 +726,7 @@ section,
   line-height: 40px;
   display: block;
   font-weight: 700;
-/*   font-family: "Raleway", sans-serif; */
+  /*   font-family: "Raleway", sans-serif; */
   margin-left: 60px;
 }
 
@@ -695,8 +737,9 @@ section,
   font-family: var(--font-titulo);
   font-size: 14px;
 }
+
 /* Services */
-.services .service-item{
+.services .service-item {
   position: relative;
   height: 100%;
   margin-bottom: 30px;
@@ -707,26 +750,38 @@ section,
 }
 
 .services .service-item .icon i {
-  color:var(--accent-color);
+  color: var(--accent-color);
   font-size: 40px;
   line-height: 0;
   transition: 0.3s;
 }
 
+.services .service-item.service-item:hover i {
+  color: #060606;
+  /*  completar */
+
+}
+
+.services .service-item .tifle {
+  color: #394047;
+  transition: all .2s ease-in-out;
+  font-size: ;
+}
+
 
 /*  Scroll-tob = BOtão subir */
 .scroll-top {
-position:fixed;
-background-color: #428bca;
-width: 40px;
-height: 40px;
-border-radius: 4px;
-z-index: 99999;
-right: 15px;
-bottom:15px;
-visibility: hidden;
-opacity: 0;
-transition: all .5s ease-in-out;
+  position: fixed;
+  background-color: #428bca;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  z-index: 99999;
+  right: 15px;
+  bottom: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
 }
 
 .scroll-top i {
@@ -735,7 +790,13 @@ transition: all .5s ease-in-out;
   line-height: 1;
 }
 
-.scroll-top.active{
+.scroll-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.scroll-top:hover {
+  background-color: #428bca;
+  transition: all 2s;
+
 }
