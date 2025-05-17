@@ -4,7 +4,7 @@
 
 ### Escola SENAI "Mariano Ferraz"
 
-#### _Prof. Gustavo Ferriani_
+[Prof. Gustavo Ferriani](https://github.com/guuhferiani/)
 
 ###
 
