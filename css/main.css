@@ -864,7 +864,7 @@ section,
   transition: all .3s ease-in-out;
   background: #0606063e;
   padding: 15px;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .portfolio .portfolio-content:hover img {
@@ -893,6 +893,9 @@ section,
   line-height: 0;
 }
 
+.portfolio .portfolio-content:hover .portfolio-info {
+  opacity: 1;
+}
 
 
 
