@@ -4,15 +4,13 @@
 
 ### Escola SENAI "Mariano Ferraz"
 
-<<<<<<< HEAD
+###
+
 [Prof. Gustavo Ferriani](https://github.com/guuhferiani/)
-=======
-#### _Prof. Gustavo Ferriani_ 
->>>>>>> 38c0110b4c31962732a989f61c59f30dc0adc033
 
 ###
 
-<h1 align="center">Vamos aprender Bootstrap!👋</h1>
+<h1 align="left">Vamos aprender Bootstrap!👋</h1>
 
 ###
 
