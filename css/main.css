@@ -933,7 +933,7 @@ section,
 #Feedback Revisar aqui
 -----------------------*/
 .feedbacks .feedback-item {
-  background-color: #fffdfd;
+  background-color: #eeeff0;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
   padding: 30px;
   position: relative;
@@ -944,11 +944,60 @@ section,
 .feedbacks .feedback-item .feedback-img {
   width: 90px;
   border-radius: 50px;
-  border: 6px solid #fafafa;
+  border: 3px solid #d8d8d8;
   float: left;
   margin: 0 10px 0 0;
 
 }
+
+.feedbacks .feedback-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+.feedbacks .feedback-item h4 {
+  font-size: 12px;
+  color: color-mix(in rgb, var(--default-color), transparent 20%);
+  margin: 0;
+}
+
+.feedbacks .feedback-item .stars {
+  margin: 10px 0;
+}
+
+.feedbacks .feedback-item .stars i {
+  color: #ffaf02;
+  font-size: 14px;
+  line-height: 0;
+}
+.feedbacks .feedback-item .quote-icon-left,
+.feedbacks .feedback-item .quote-icon-right {
+  color: color-mix(in srgb, var(--accent-color), transparent 50%);
+  font-size: 26px;
+  line-height: 0;
+}
+
+.feedbacks .feedback-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.feedbacks .feedback-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 1px;
+  transform: scale(-1,-1);
+}
+
+.feedbacks .feedback-item p {
+  font-style: italic;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
 
 
 /* Sroll-top = Botão de voltar ao topo do Site */
