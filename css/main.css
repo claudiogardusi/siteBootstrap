@@ -958,7 +958,7 @@ section,
 
 .feedbacks .feedback-item h4 {
   font-size: 12px;
-  color: color-mix(in rgb, var(--default-color), transparent 20%);
+  color: rgba(68, 68, 68, 0.8);
   margin: 0;
 }
 
@@ -973,7 +973,7 @@ section,
 }
 .feedbacks .feedback-item .quote-icon-left,
 .feedbacks .feedback-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 50%);
+  color: #6ba7dc;
   font-size: 26px;
   line-height: 0;
 }
