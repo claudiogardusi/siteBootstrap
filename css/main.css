@@ -997,10 +997,12 @@ section,
 }
 
 .feedbacks .feedback-item p {
-  font-style: italic;
+  font-style: italic; /* aqui pode ser substituido com uma estilização do Bootstrap */
   margin: 15px 0 0 0;
   padding: 0;
 }
+
+
 
 
 
