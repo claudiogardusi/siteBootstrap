@@ -930,7 +930,7 @@ section,
 }
 
 /*  -------------------
-#Feedback Revisar aqui
+#Feedback Criado em paralelo com o site
 -----------------------*/
 .feedbacks .feedback-item {
   background-color: #eeeff0;
@@ -958,7 +958,7 @@ section,
 
 .feedbacks .feedback-item h4 {
   font-size: 12px;
-  color: rgba(68, 68, 68, 0.8);
+  color: #26262692;
   margin: 0;
 }
 
@@ -970,6 +970,8 @@ section,
   color: #ffaf02;
   font-size: 14px;
   line-height: 0;
+  margin-right: 0 1px;
+  
 }
 .feedbacks .feedback-item .quote-icon-left,
 .feedbacks .feedback-item .quote-icon-right {
@@ -982,6 +984,8 @@ section,
   display: inline-block;
   left: -5px;
   position: relative;
+  top: 1px;
+  transform: scale(1, -1);
 }
 
 .feedbacks .feedback-item .quote-icon-right {
