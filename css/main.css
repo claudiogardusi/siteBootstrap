@@ -1080,6 +1080,46 @@ section,
   transition: bottom ease-in-out 0.4s;
 }
 
+/* Formulário de contato */
+.contact .info-item {
+  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  padding: 30px;
+}
+
+.contact .info-item i {
+  font-size: 38px;
+  line-height: 0;
+  color: var(--accent-color);
+}
+
+.contact .info-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.contact .info-item p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contact .emaill-form {
+  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  padding: 30px;
+}
+
+.contact .form-control {
+  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  color: var(--default-color);
+}
+
+
 
 /* Sroll-top = Botão de voltar ao topo do Site */
 
