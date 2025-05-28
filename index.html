@@ -1198,31 +1198,46 @@
                     <!-- Coluna 2 -->
                     <div class="col-lg-6">
 
+                        <div class="info-item" data-aos="fade" data-aos-delay="300">
+                        
+                            <form action="" method="post" class="email-form" data-aos="fade-up" data-aos-delay="200">
 
-                        <form action="" method="post" class="email-form" data-aos="fade-up" data-aos-delay="200">
+                                <div class="row gy-4">
 
-                            <div class="row gy-4">
+                                    <!-- Nome -->
+                                    <div class="col-md-6">
+                                        <input type="text" name="name" class="form-control" placeholder="Nome Completo"
+                                            required>
+                                    </div>
 
-                                <!-- Nome -->
-                                <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Nome Completo"
-                                        required>
+                                    <!-- Email -->
+                                    <div class="col-md-6">
+                                        <input type="email" name="email" class="form-control" placeholder="Seu E-mail"
+                                            required>
+                                    </div>
+
+                                    <!-- Assunto -->
+                                    <div class="col-12">
+                                        <input type="text" name="suject" class="form-control" placeholder="Assunto">
+                                    </div>
+
+                                    <!-- Mensagem -->
+                                    <div class="col-12">
+                                        <textarea class="form-control" name="message" rows="6"
+                                            placeholder="Mensagem"></textarea>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
+                                        <button type="submit" class="form-enviar">Enviar mensagem</button>   
+                                    </div>
+
                                 </div>
 
-                                <!-- Email -->
-                                <div class="col-md-6">
-                                    <input type="email" name="email" class="form-control" placeholder="Seu E-mail"
-                                        required>
-                                </div>
+                            </form>
 
-                                <!-- Assunto -->
-                                <div class="col-12">
-                                    <input type="text" name="suject" class="form-control" placeholder="Assunto">
-                                </div>
-
-                            </div>
-
-                        </form>
+                        </div>
 
                     </div>
 

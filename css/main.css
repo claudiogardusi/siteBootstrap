@@ -1106,7 +1106,7 @@ section,
 }
 
 .contact .emaill-form {
-  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  background: var(--surface-color);
   padding: 30px;
 }
 
@@ -1117,6 +1117,11 @@ section,
   padding: 10px;
   font-size: 14px;
   color: var(--default-color);
+}
+.contact .form-enviar{
+  background-color: #428bca;
+  color: var(--surface-color);
+  border-radius: 5px;
 }
 
 
