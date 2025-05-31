@@ -1080,16 +1080,19 @@ section,
   transition: bottom ease-in-out 0.4s;
 }
 
-/* Formulário de contato */
+/* ---------------------------------
+# Contato // Forms  
+------------------------------------- */
 .contact .info-item {
-  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  /* background: #f1f0f0b4; */
+  background: color-mix(in srgb, var(--default-color), transparent 96% );
   padding: 30px;
 }
 
 .contact .info-item i {
+  color: #428bca;
   font-size: 38px;
   line-height: 0;
-  color: var(--accent-color);
 }
 
 .contact .info-item h3 {
@@ -1099,69 +1102,54 @@ section,
 }
 
 .contact .info-item p {
-  padding: 0;
+  margin: 0;
   line-height: 24px;
   font-size: 14px;
-  margin-bottom: 0;
+  padding: 0;
 }
 
+/* Forms */
 .contact .email-form {
-  background: var(--surface-color);
+  background: color-mix(in srgb, var(--default-color), transparent 96% );
   padding: 30px;
+  height: 100%;
 }
 
-.contact .form-control {
-  background: color-mix(in srgb, var(--default-color), transparent 96%);
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  padding: 10px;
+.contact .email-form input[type=text],
+.contact .email-form input[type=email],
+.contact .email-form textarea {
   font-size: 14px;
-  color: var(--default-color);
+  border-radius: 0;
+  color: #252525;
+  background: #ffffff80;
+  border-color: #46464630;
+  box-shadow: none;
 }
 
-.contact .form-enviar{
-  background-color: #428bca;
-  color: var(--surface-color);
-  border-radius: 5px;
+.contact .email-form input[type=text]:focus,
+.contact .email-form input[type=email]:focus,
+.contact .email-form textarea:focus {
+  border-color: var(--accent-color);
+}
+
+.contact .email-form input[type=text]::placeholder,
+.contact .email-form input[type=email]::placeholder {
+  color: #acacac9a;
+}
+
+/* Sobrescrever estilo do Bootstrap */
+/* .contact .email-form button[type=submit] {
+  background: red;
+  color: black;
+}
+ */
+.contact .email-form button[type=submit]:hover {
+  background: #428bcadb;
+  border: none;
+  color: #cbdff1;
 }
 
 
-/* Sroll-top = Botão de voltar ao topo do Site */
-
-.scroll-top {
-  position: fixed;
-  background-color: #428bca;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  z-index: 99999;
-  right: 15px;
-  bottom: 15px;
-  visibility: hidden;
-  opacity: 0;
-  transition: all .5s ease-in-out;
-}
-
-.scroll-top i {
-  font-size: 24px;
-  color: #fff;
-  line-height: 0;
-}
-
-.scroll-top:hover {
-  background-color: #6ba7dcd9;
-  transition: all .2s ease-in-out;
-}
-
-.scroll-top i:hover {
-  color: #060606;
-  transition: all .2s ease-in-out;
-}
-
-.scroll-top.active {
-  visibility: visible;
-  opacity: 1;
-}
 
 /*  Scroll-tob = BOtão subir */
 .scroll-top {
