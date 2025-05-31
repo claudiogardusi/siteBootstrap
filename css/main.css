@@ -1118,11 +1118,12 @@ section,
   font-size: 14px;
   color: var(--default-color);
 }
-.contact .form-enviar{
+
+/* .contact .form-enviar{
   background-color: #428bca;
   color: var(--surface-color);
   border-radius: 5px;
-}
+} */
 
 
 
