@@ -1105,7 +1105,7 @@ section,
   margin-bottom: 0;
 }
 
-.contact .emaill-form {
+.contact .email-form {
   background: var(--surface-color);
   padding: 30px;
 }
@@ -1119,11 +1119,11 @@ section,
   color: var(--default-color);
 }
 
-/* .contact .form-enviar{
+.contact .form-enviar{
   background-color: #428bca;
   color: var(--surface-color);
   border-radius: 5px;
-} */
+}
 
 
 /* Sroll-top = Botão de voltar ao topo do Site */
