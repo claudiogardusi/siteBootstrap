@@ -6,7 +6,7 @@
 
 ###
 
-[Prof. Gustavo Ferriani](https://github.com/guuhferiani/)
+[Prof. Gustavo Ferriani](https://github.com/gustavoferiani/)
 
 ###
 
